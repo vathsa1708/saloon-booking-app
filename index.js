@@ -2,9 +2,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const authController = require('../saloon-booking-app/authController');
+const authController = require('./authController');
 const availabilityRouter = require('./routes/availabilityRouter');
-const authMiddleware = require('../saloon-booking-app/middleware/authMiddleware');
+const authMiddleware = require('./middleware/authMiddleware');
 const bookingRouter = require('./routes/bookingRouter');
 dotenv.config();
 const app = express();

@@ -1,5 +1,5 @@
 // availability/availabilityController.js
-const Availability = require('../saloon-booking-app/models/Availability');
+const Availability = require('./models/Availability');
 
 exports.setAvailability = async (req, res) => {
   try {

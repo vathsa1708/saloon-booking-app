@@ -1,7 +1,7 @@
 // controllers/bookingController.js
 const Booking = require('./models/BookingRequest')
 // Import the Booking model
-const Availability = require('../saloon-booking-app/models/Availability');
+const Availability = require('./models/Availability');
 
 exports.scheduleBooking = async (req, res) => {
   try {
